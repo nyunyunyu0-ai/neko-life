@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/*共通部分*/
+html{
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family:  "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif; 
+    line-height: 1.7;
+    color: #432;
+    background-size: cover;
+    background-image: url(../images/cover-home.png)
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+
+
+
+/*ヘッダー*/
+.logo{
+    width: 200px;
+    vertical-align: middle;
+}
+.site-title{
+    padding-top: .5rem;
+    text-align: center;
+    font-size: 5rem;
+}
+.sub-title{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+.cover{
+    background-size: cover;
+    background-position: center bottom;
+    height: 200px;
+    background-image: url(../images/cover-home.png);
+}
+
+
+/*メインメニュー*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.item{
+    background: #A98263;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 60px;
+    width: 200px;
+    text-align: center;
+}
+
+.item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*下層ページの目次*/
+.contents{
+    margin: 100px 0px 80px 30px;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+.contents a{
+    color: #432;
+}
+.contents-container{
+    display: flex;
+    justify-content: space-between;
+}
+.modoru{
+    text-align: center;
+}
+#teach{
+    width: 300px;
+    height: auto;
+    margin: 100px 150px 80px 0;
+}
+.bun{
+    margin: 50px 70px;
+}
+.bun h2{
+    margin-bottom: 30px
+}
+.bun p{
+    margin-bottom: 25px;
+    line-height: 1.8; 
+}
